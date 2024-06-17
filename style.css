@@ -55,9 +55,17 @@ span img {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.search-google input{
-    margin: 20px 400px 0px 400px;
-    border-radius: 20px;
-    width: 600px;
-    height: 35px;
+.search-google input {
+  margin: 20px 400px 0px 400px;
+  border-radius: 20px;
+  width: 600px;
+  height: 35px;
+  padding: 20px;
+}
+.search-icon {
+  background-image: url(./images/images/google_microphone.png);
+  background-size: 20px 30px;
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  float: right;
 }
