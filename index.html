@@ -10,6 +10,13 @@
       href="./images/images/favicon.png"
       type="image/x-icon"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="header-nav">
@@ -21,15 +28,62 @@
         <div class="div2">
           <a href="">Gmail</a>
           <a href="">Images</a>
-          <button onclick="alert">
-            <img src="./images/images/appicon.png" alt="" /></button
-          ><button onclick="atob">Sign In</button>
+          <button onclick="alert" class="menu-icon">
+            <img src="./images/images/appicon.png" alt="" />
+          </button>
+          <button onclick="atob" class="sign-in">Sign In</button>
         </div>
       </header>
     </div>
-    <span> <img src="./images/images/googlelogo.png" alt="" /></span>
-    <form action="" class="search-google">
-      <input type="search" name="search" id="searchgoogle" class="search-icon"/>
-    </form>
+
+    <div>
+      <span> <img src="./images/images/googlelogo.png" alt="" /></span>
+      <form action="" class="search-google">
+        <div class="icon-search">
+          <input
+            type="search"
+            name="search"
+            id="searchgoogle"
+            class="search-icon"
+          />
+          <i class="left-icon"
+            ><img
+              src="./images/images/magnifying_glass.jpg"
+              alt=""
+              class="left-icon1"
+          /></i>
+          <i class="right-icon"
+            ><img
+              src="./images/images/google_microphone.png"
+              alt=""
+              class="right-icon2"
+          /></i>
+        </div>
+        <div class="search-feeling">
+          <button>Google Search</button>
+          <button>I'm Feeling Lucky</button>
+        </div>
+        <div class="language-div">
+          <p>Other Languages you can use Google: <a href="">English</a></p>
+        </div>
+      </form>
+    </div>
+    <footer>
+      <div class="canada">
+        <p>Canada</p>
+      </div>
+      <div class="footer-finish">
+        <div class="left-footer">
+          <a href="">Advertising</a>
+          <a href="">Business</a>
+          <a href="">How Search Works</a>
+        </div>
+        <div class="right-footer">
+          <a href="">Privacy</a>
+          <a href="">Terms</a>
+          <a href="">Settings</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
